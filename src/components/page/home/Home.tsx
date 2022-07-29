@@ -183,7 +183,7 @@ export default function Home() {
             ))}
           </Row>
           <Row>
-            {post.map(({ title, yoast_head_json }) => {
+            {post.map(({ title, yoast_head_json }: any) => {
               return (
                 <div key={title}>
                   <h1>{title.rendered}</h1>
