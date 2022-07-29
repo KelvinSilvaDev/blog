@@ -14,7 +14,6 @@ import Benefits from '@/components/section/blurps/Benefits';
 import SnippetCard from '@/components/section/snippets/SnippetCard';
 
 export default function Home() {
-  const api = 'https://graphql.datocms.com/1c35f68f38c8ff7ad420036a961dd7';
   const [post, setPost] = useState([]);
 
   useEffect(() => {
