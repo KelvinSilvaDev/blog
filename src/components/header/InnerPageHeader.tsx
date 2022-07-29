@@ -1,8 +1,6 @@
 import React, { PropsWithChildren } from 'react';
 import { Container } from 'react-bootstrap';
 
-//import SiteNav from '@/components/nav/SiteNav';
-
 export default function InnerPageHeader({ children }: PropsWithChildren<any>) {
   return (
     <header className="header inner-pages-header">
